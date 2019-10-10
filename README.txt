@@ -1,1 +1,2 @@
 Nowy
+Git is good
