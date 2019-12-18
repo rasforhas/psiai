@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+{% block title %}Bibliometr V2.0{% endblock %}
+
+{% block body %}
+
+    {% block stylesheets %} <link rel="stylesheet" href="{{ 'css/my.css' }}"> {% endblock %}
+<div class="biblio-header">
+    <h1>Bibliometr V2.0</h1>
+</div>
+<div class="example-wrapper">
+    <h1>Witaj w systemie zgromadzenia danych bibliometrycznych </h1>
+
+    <p><form action="index.php" method="POST">
+        <input type="text" name="searchVal" placeholder="Znajdź artykuł" />
+        <input type="submit" name="search" value="Search.."/>
+    </form></p>
+    <p>
+    <form action="logging.html.twig">
+    <p><button>ZALOGUJ</button></p>
+    </form></p>
+    <p><button>ZAREJESTRUJ</button></p>
+    <p><button>WYEKSPORTUJ</button></p>
+</div>
+{% endblock %}

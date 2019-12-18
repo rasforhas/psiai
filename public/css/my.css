@@ -1,0 +1,5 @@
+body { background-color: burlywood; }
+.example-wrapper {
+    text-align: center;  width: 95%; font: 12px/1.5 sans-serif; }
+.example-wrapper button { width: 180px; height: 60px; text-align: center; color: #222222; background-color: darkseagreen; }
+.biblio-header { text-align: center; font: 20px/1.5 sans-serif; }
